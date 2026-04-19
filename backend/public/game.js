@@ -165,7 +165,7 @@ document.addEventListener("click", async (e) => {
   else if (hiding) {
     console.log("Hiding at: ", coords);
     // put fetch request (post) here!!!
-    const response = await fetch("http://localhost:3000/hiding", {
+    const response = await fetch("https://screamclone-git-708566547707.us-south1.run.app/hiding", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -185,7 +185,7 @@ document.addEventListener("click", async (e) => {
     console.log("Searching at: ", coords);
     // put fetch request here!!!
 
-    const response = await fetch("http://localhost:3000/searching", {
+    const response = await fetch("https://screamclone-git-708566547707.us-south1.run.app/searching", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -200,7 +200,7 @@ document.addEventListener("click", async (e) => {
       alert("You found the victim!");
     }
     else {
-      alert("You didn't find the victim! FUCK YOU");
+      alert("You didn't find the victim! FUCK YOU :P");
     }
   }
   
