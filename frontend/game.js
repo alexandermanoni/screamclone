@@ -200,7 +200,7 @@ document.addEventListener("click", async (e) => {
       alert("You found the victim!");
     }
     else {
-      alert("You didn't find the victim! FUCK YOU");
+      alert("You didn't find the victim! FUCK YOU :P");
     }
   }
   
